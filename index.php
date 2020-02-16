@@ -13,7 +13,7 @@ $message = $data->object->text;
 if ($data->type == 'message_new') { 
 	switch ($message) {
         default:
-            $vk->sendButton($peer_id, "Я готов к работе",[[BTN_1, BTN_2, BTN_3]]);
+            $vk->sendButton($peer_id, "Я готов к работе",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
             break;
         case 'Свег есть?':
             $vk->sendButton($peer_id, "Свег есть!! Свег есть!! Свег есть!! Свег есть!! Свег есть!! Свег есть!! Свег есть!! Свег есть!! Свег есть!! Свег есть!! Свег есть!! Свег есть!! Свег есть!! Свег есть!! Свег есть!! Свег есть!! Свег есть!! Свег есть!! Свег есть!!",[[BTN_1, BTN_2, BTN_3]]);
