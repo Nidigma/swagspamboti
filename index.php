@@ -40,7 +40,7 @@ if ($data->type == 'message_new') {
                 $vk->sendButton($peer_id, "Жесткий спам");
                 sleep(0);
             }
-            $vk->sendButton($peer_id, "Свег бот вернулся",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
+            $vk->sendButton($peer_id, "Жесткий спам",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
             break;
 			
 /////////////////////////////////////////////////////////////////
@@ -70,7 +70,7 @@ if ($data->type == 'message_new') {
                 $vk->sendButton($peer_id, "Жесткий спам");
                 sleep(0);
             }
-            $vk->sendButton($peer_id, "Свег бот вернулся",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
+            $vk->sendButton($peer_id, "Жесткий спам",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
             break;
 			
 /////////////////////////////////////////////////////////////////
@@ -100,7 +100,7 @@ if ($data->type == 'message_new') {
                 $vk->sendButton($peer_id, "Жесткий спам");
                 sleep(0);
             }
-            $vk->sendButton($peer_id, "Свег бот вернулся",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
+            $vk->sendButton($peer_id, "Жесткий спам",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
             break;
 			
 /////////////////////////////////////////////////////////////////
@@ -130,7 +130,7 @@ if ($data->type == 'message_new') {
                 $vk->sendButton($peer_id, "Жесткий спам");
 		sleep(0);
             }
-            $vk->sendButton($peer_id, "Свег бот вернулся",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
+            $vk->sendButton($peer_id, "Жесткий спам",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
             break;
 			
 /////////////////////////////////////////////////////////////////
@@ -160,7 +160,7 @@ if ($data->type == 'message_new') {
                 $vk->sendButton($peer_id, "Жесткий спам");
 		sleep(0);
             }
-            $vk->sendButton($peer_id, "Свег бот вернулся",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
+            $vk->sendButton($peer_id, "Жесткий спам",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
             break;
     }
 } 
