@@ -5,3 +5,4 @@ const VERSION = "5.89";
 const BTN_1 = [["command" => 'btn_1'], "Свег есть?", "green"];
 const BTN_2 = [["command" => 'btn_2'], "Спам!", "red"];
 const BTN_3 = [["command" => 'btn_3'], "Бот есть?", "white"];
+const BTN_4 = [["command" => 'btn_4'], "Жесткий спам", "red"];
