@@ -26,21 +26,21 @@ if ($data->type == 'message_new') {
             }
             $vk->sendButton($peer_id, "Всё!
 	    Кста, можешь зайти в беседу:
-	    vk.me/join/AJQ1d4yMcBYt9yahPowH3XIu",[[BTN_1, BTN_2, BTN_3]]);
+	    vk.me/join/AJQ1d4yMcBYt9yahPowH3XIu",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
             break;
         case 'Бот есть?':
             for ($i = 1; $i <= 25; $i++) {
                 $vk->sendButton($peer_id, "Свег спам бот есть!");
                 sleep(1);
             }
-            $vk->sendButton($peer_id, "Свег спам бот есть!",[[BTN_1, BTN_2, BTN_3]]);
+            $vk->sendButton($peer_id, "Свег спам бот есть!",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
             break;
-	case 'бот жив?':
-            for ($i = 1; $i <= 25; $i++) {
-                $vk->sendButton($peer_id, "Свег бот вернулся");
-                sleep(2);
+	case 'Жесткий спам':
+            for ($i = 1; $i <= 100; $i++) {
+                $vk->sendButton($peer_id, "Жесткий спам");
+                sleep(0);
             }
-            $vk->sendButton($peer_id, "Свег бот вернулся",[[BTN_1, BTN_2, BTN_3]]);
+            $vk->sendButton($peer_id, "Свег бот вернулся",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
             break;
 			
 /////////////////////////////////////////////////////////////////
@@ -56,21 +56,21 @@ if ($data->type == 'message_new') {
             }
             $vk->sendButton($peer_id, "Всё!
 	    Кста, можешь зайти в беседу:
-	    vk.me/join/AJQ1d4yMcBYt9yahPowH3XIu",[[BTN_1, BTN_2, BTN_3]]);
+	    vk.me/join/AJQ1d4yMcBYt9yahPowH3XIu",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
             break;
         case '[club188091187|@swagspambot] Бот есть?':
             for ($i = 1; $i <= 25; $i++) {
                 $vk->sendButton($peer_id, "Свег спам бот есть!");
                 sleep(1);
             }
-            $vk->sendButton($peer_id, "Свег спам бот есть!",[[BTN_1, BTN_2, BTN_3]]);
+            $vk->sendButton($peer_id, "Свег спам бот есть!",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
             break;
-	case '[club188091187|@swagspambot] бот жив?':
-            for ($i = 1; $i <= 25; $i++) {
-                $vk->sendButton($peer_id, "Свег бот вернулся");
-                sleep(2);
+	case 'Жесткий спам':
+            for ($i = 1; $i <= 100; $i++) {
+                $vk->sendButton($peer_id, "Жесткий спам");
+                sleep(0);
             }
-            $vk->sendButton($peer_id, "Свег бот вернулся",[[BTN_1, BTN_2, BTN_3]]);
+            $vk->sendButton($peer_id, "Свег бот вернулся",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
             break;
 			
 /////////////////////////////////////////////////////////////////
@@ -86,21 +86,21 @@ if ($data->type == 'message_new') {
             }
             $vk->sendButton($peer_id, "Всё!
 	    Кста, можешь зайти в беседу:
-	    vk.me/join/AJQ1d4yMcBYt9yahPowH3XIu",[[BTN_1, BTN_2, BTN_3]]);
+	    vk.me/join/AJQ1d4yMcBYt9yahPowH3XIu",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
             break;
         case '[club188091187|свег спам бот] Бот есть?':
             for ($i = 1; $i <= 25; $i++) {
                 $vk->sendButton($peer_id, "Свег спам бот есть!");
                 sleep(1);
             }
-            $vk->sendButton($peer_id, "Свег спам бот есть!",[[BTN_1, BTN_2, BTN_3]]);
+            $vk->sendButton($peer_id, "Свег спам бот есть!",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
             break;
-	case '[club188091187|свег спам бот] бот жив?':
-            for ($i = 1; $i <= 25; $i++) {
-                $vk->sendButton($peer_id, "Свег бот вернулся");
-                sleep(2);
+	case 'Жесткий спам':
+            for ($i = 1; $i <= 100; $i++) {
+                $vk->sendButton($peer_id, "Жесткий спам");
+                sleep(0);
             }
-            $vk->sendButton($peer_id, "Свег бот вернулся",[[BTN_1, BTN_2, BTN_3]]);
+            $vk->sendButton($peer_id, "Свег бот вернулся",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
             break;
 			
 /////////////////////////////////////////////////////////////////
@@ -116,21 +116,21 @@ if ($data->type == 'message_new') {
             }
             $vk->sendButton($peer_id, "Всё!
 	    Кста, можешь зайти в беседу:
-	    vk.me/join/AJQ1d4yMcBYt9yahPowH3XIu",[[BTN_1, BTN_2, BTN_3]]);
+	    vk.me/join/AJQ1d4yMcBYt9yahPowH3XIu",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
             break;
         case '[club188091187|свег спам бот], Бот есть?':
             for ($i = 1; $i <= 25; $i++) {
                 $vk->sendButton($peer_id, "Свег спам бот есть!");
                 sleep(1);
             }
-            $vk->sendButton($peer_id, "Свег спам бот есть!",[[BTN_1, BTN_2, BTN_3]]);
+            $vk->sendButton($peer_id, "Свег спам бот есть!",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
             break;
-	case '[club188091187|свег спам бот], бот жив?':
-            for ($i = 1; $i <= 25; $i++) {
-                $vk->sendButton($peer_id, "Свег бот вернулся");
-                sleep(2);
+     	case 'Жесткий спам':
+            for ($i = 1; $i <= 100; $i++) {
+                $vk->sendButton($peer_id, "Жесткий спам");
+		sleep(0);
             }
-            $vk->sendButton($peer_id, "Свег бот вернулся",[[BTN_1, BTN_2, BTN_3]]);
+            $vk->sendButton($peer_id, "Свег бот вернулся",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
             break;
 			
 /////////////////////////////////////////////////////////////////
@@ -146,21 +146,21 @@ if ($data->type == 'message_new') {
             }
             $vk->sendButton($peer_id, "Всё!
 	    Кста, можешь зайти в беседу:
-	    vk.me/join/AJQ1d4yMcBYt9yahPowH3XIu",[[BTN_1, BTN_2, BTN_3]]);
+	    vk.me/join/AJQ1d4yMcBYt9yahPowH3XIu",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
             break;
         case '[club188091187|@swagspambot], Бот есть?':
             for ($i = 1; $i <= 25; $i++) {
                 $vk->sendButton($peer_id, "Свег спам бот есть!");
                 sleep(1);
             }
-            $vk->sendButton($peer_id, "Свег спам бот есть!",[[BTN_1, BTN_2, BTN_3]]);
+            $vk->sendButton($peer_id, "Свег спам бот есть!",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
             break;
-	case '[club188091187|@swagspambot], бот жив?':
-            for ($i = 1; $i <= 25; $i++) {
-                $vk->sendButton($peer_id, "Свег бот вернулся");
-                sleep(2);
+     	case 'Жесткий спам':
+            for ($i = 1; $i <= 100; $i++) {
+                $vk->sendButton($peer_id, "Жесткий спам");
+		sleep(0);
             }
-            $vk->sendButton($peer_id, "Свег бот вернулся",[[BTN_1, BTN_2, BTN_3]]);
+            $vk->sendButton($peer_id, "Свег бот вернулся",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
             break;
     }
 } 
