@@ -42,6 +42,7 @@ if ($data->type == 'message_new') {
             }
             $vk->sendButton($peer_id, "Жесткий спам",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
             break;
+			
 /////////////////////////////////////////////////////////////////
 			
 	case '[club188091187|@swagspambot] Свег есть?':
@@ -71,6 +72,7 @@ if ($data->type == 'message_new') {
             }
             $vk->sendButton($peer_id, "Жесткий спам",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
             break;
+			
 /////////////////////////////////////////////////////////////////
 						
 	case '[club188091187|свег спам бот] Свег есть?':
@@ -100,6 +102,7 @@ if ($data->type == 'message_new') {
             }
             $vk->sendButton($peer_id, "Жесткий спам",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
             break;
+			
 /////////////////////////////////////////////////////////////////
 			
 	case '[club188091187|свег спам бот], Свег есть?':
@@ -128,7 +131,8 @@ if ($data->type == 'message_new') {
 		sleep(0);
             }
             $vk->sendButton($peer_id, "Жесткий спам",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
-            break;			
+            break;
+			
 /////////////////////////////////////////////////////////////////
 			
 	case '[club188091187|@swagspambot], Свег есть?':
