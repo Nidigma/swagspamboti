@@ -5,13 +5,6 @@ $vk = new vk_api(VK_KEY, VERSION);
 $data = json_decode(file_get_contents('php://input')); 
 if ($data->type == 'confirmation') {
     exit(ACCESS_KEY);
-}
-$vk->sendOK();
-$peer_id = $data->object->peer_id; 
-$id = $data->object->from_id; 
-$message = $data->object->text; 
-if ($data->type == 'message_new')
-	
 $vk = new vk_api(VK_KEY, VERSION); // создание экземпляра класса работы с api, принимает ключ и версию api
 $data = json_decode(file_get_contents('php://input')); //Получает и декодирует JSON пришедший из ВК
 //print_r($data);
