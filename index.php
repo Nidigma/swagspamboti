@@ -43,6 +43,7 @@ if ($data->type == 'message_new') {
             $vk->sendButton($peer_id, "Жесткий спам",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
             break;
 			
+			
 /////////////////////////////////////////////////////////////////
 			
 	case '[club188091187|@swagspambot] Свег есть?':
@@ -95,7 +96,7 @@ if ($data->type == 'message_new') {
             }
             $vk->sendButton($peer_id, "Свег спам бот есть!",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
             break;
-	case '[club188091187|@swagspambot] Жесткий спам':
+	case '[club188091187|свег спам бот] Жесткий спам':
             for ($i = 1; $i <= 100; $i++) {
                 $vk->sendButton($peer_id, "Жесткий спам");
                 sleep(0);
@@ -125,7 +126,7 @@ if ($data->type == 'message_new') {
             }
             $vk->sendButton($peer_id, "Свег спам бот есть!",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
             break;
-     	case '[club188091187|@swagspambot] Жесткий спам':
+     	case '[club188091187|свег спам бот], Жесткий спам':
             for ($i = 1; $i <= 100; $i++) {
                 $vk->sendButton($peer_id, "Жесткий спам");
 		sleep(0);
@@ -155,7 +156,7 @@ if ($data->type == 'message_new') {
             }
             $vk->sendButton($peer_id, "Свег спам бот есть!",[[BTN_1, BTN_2, BTN_3, BTN_4]]);
             break;
-     	case '[club188091187|@swagspambot] Жесткий спам':
+     	case '[club188091187|@swagspambot], Жесткий спам':
             for ($i = 1; $i <= 100; $i++) {
                 $vk->sendButton($peer_id, "Жесткий спам");
 		sleep(0);
